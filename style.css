@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: red;
+    color: white;
+}
+/* la tête */
+header div nav ul{
+    display: flex;
+    background-color: rgb(201, 17, 17);
+    color: white;
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 0px;
+    padding-left: 30px;
+}
+div nav ul label{
+    display: flex;
+    justify-content: space-around;
+}
+/* 1er zone illustrée */
+.spid{
+    background-image: url(/Assets/Illustration/img1.png);
+    padding: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 0%;
+    width: 50%;
+}
+.spid nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+}
+.spid button{
+    color: white;
+}
+.but1{
+    background-color: red;
+    margin-left: 50pw;
+}
+.spid h1{
+    font-family:Impact, Handwriting, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 700%;
+}
+/* zone de couleur bleu */
+.manga{
+    background-color: blue;
+    padding: 30%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    height: 50%;
+    line-height: 50px;
+    font-size: 22px;
+}
+}
+/* voici le pied */
+footer{
+    display:flex;
+    justify-content:space-between;
+    background-color: black;
+}
+
+
+   
